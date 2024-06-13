@@ -1,1 +1,43 @@
-/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.amount-container {
+  display: flex;
+  border-radius: 15px;
+  padding: 15px 35px 15px 35px;
+}
+
+.category-image {
+  width: 100px;
+}
+
+.rupees {
+  font-size: 30px;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.text-container {
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}

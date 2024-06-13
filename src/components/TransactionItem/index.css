@@ -1,1 +1,23 @@
-/* Write your CSS here */
+.list-item-container {
+  display: flex;
+  color: #1e293b;
+  width: 500px;
+  margin-top: 20px;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.list-text {
+  color: #475569;
+  margin-right: auto;
+}
+
+.delete-button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.delete-image {
+  width: 30px;
+}
