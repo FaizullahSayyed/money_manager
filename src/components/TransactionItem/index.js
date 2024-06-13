@@ -11,7 +11,7 @@ const TransactionItem = props => {
     <li className="list-item-container">
       <p className="list-text">{title}</p>
       <p className="list-text">Rs {amount}</p>
-      <p className="list-text">{type}</p>
+      <p className="list-text">{type === 'INCOME' ? 'Income' : 'Expenses'}</p>
       <button
         type="button"
         onClick={onClickDeleteTransaction}
