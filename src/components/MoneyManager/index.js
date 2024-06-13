@@ -146,7 +146,7 @@ class MoneyManager extends Component {
                     AMOUNT
                   </label>
                   <input
-                    type="number"
+                    type="text"
                     id="amountInput"
                     value={amount}
                     onChange={this.updateAmount}
